@@ -1,0 +1,41 @@
+﻿body {
+    background: linear-gradient(190deg, #1a1a2e,white, white);
+    background-size: 300% 100%;
+    animation: gradientAnimationForBody 10s ease infinite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.AnimSignBG {
+    background: linear-gradient(190deg, white,#1a1a2e);
+    background-size: 200% 100%;
+    color: red;
+    animation: signupAnmbg 10s ease infinite;
+}
+
+@keyframes signupAnmbg {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes gradientAnimationForBody {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
